@@ -94,4 +94,4 @@ systemctl --user enable --now ncc-keepalive
 ## Tested with
 
 OpenNCC USB camera with SC8238 sensor, firmware MV03.01.01 from opennccframe,
-Ubuntu with kernel 7.0, VLC 3 and ffmpeg 6.
+Linux Mint 22.3 (Ubuntu 24.04 base) with kernel 7.0, VLC 3.0.20 and ffmpeg 6.1.
