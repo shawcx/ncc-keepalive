@@ -1,0 +1,11 @@
+[Unit]
+Description=Keep the OpenNCC camera booted as a V4L2 device
+After=graphical-session.target
+
+[Service]
+ExecStart=@BIN@ -q
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
